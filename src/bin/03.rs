@@ -1,5 +1,5 @@
 use itertools::Itertools;
-use std::collections::{HashMap, HashSet};
+use rustc_hash::{FxHashMap as HashMap, FxHashSet as HashSet};
 advent_of_code::solution!(3);
 
 #[derive(Debug)]

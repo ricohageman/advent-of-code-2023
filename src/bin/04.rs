@@ -1,4 +1,4 @@
-use std::collections::HashSet;
+use rustc_hash::FxHashSet as HashSet;
 advent_of_code::solution!(4);
 
 fn number_of_winning_numbers_per_game(input: &str) -> impl Iterator<Item = usize> + '_ {
